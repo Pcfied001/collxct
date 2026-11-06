@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sign in – Collxct</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="si-page">
+ <div class="si-l">
+  <div class="si-brand"><div class="si-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 19V5l10 14V5"/><path d="M4 10h16M4 14h16"/></svg></div><span>coll<i>x</i>ct</span></div>
+  <h1>Collections that<br>run <em>themselves.</em></h1>
+  <p>Automate dues collection, track every naira, and send instant WhatsApp receipts — for cooperatives, estates, and associations across Nigeria.</p>
+  <div class="si-st"><div><b>Zero-touch</b><small>Reconciliation</small></div><div><b>Real-time</b><small>Payment alerts</small></div><div><b>100%</b><small>Audit trail</small></div></div>
+ </div>
+ <div class="si-r">
+  <h2>Welcome back</h2><div class="si-sub">Sign in to your organization portal</div>
+  <form id="siForm" novalidate>
+   <label for="siEmail">Email address</label><input id="siEmail" type="email" placeholder="you@organization.ng" autocomplete="username">
+   <label for="siPass">Password</label><input id="siPass" type="password" placeholder="••••••••" autocomplete="current-password">
+   <button class="si-btn" type="submit">Sign in</button>
+   <div class="si-msg" id="siMsg" role="status"></div>
+  </form>
+  <div class="si-div"></div>
+  <a class="si-back" href="../home/index.html">← Back to home</a>
+  <div class="si-foot">Collxct — Cooperative collections platform<br><span>Secure · Automated · Nigerian-built</span></div>
+ </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

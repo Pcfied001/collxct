@@ -1,0 +1,11 @@
+:root{--g:#10b981;--g2:#059669;--ink:#0b1220;--mut:#5b6678;--bg:#edf0f5;--line:#e3e7ee;--amber:#f59e0b;
+--hd:'Space Grotesk','Inter',system-ui,sans-serif;--bd:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace;
+color-scheme:light}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font:400 16px/1.55 var(--bd);color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--g);outline-offset:3px}
+h1{font:700 clamp(40px,6vw,64px)/1.05 var(--hd);letter-spacing:-.03em;margin:26px 0 22px}
+h2{font:700 clamp(30px,4.4vw,44px)/1.12 var(--hd);letter-spacing:-.025em}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
